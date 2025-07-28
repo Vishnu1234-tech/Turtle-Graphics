@@ -1,23 +1,33 @@
 import turtle
 import time
+import textwrap
 
+# Set up the screen
 win = turtle.Screen()
 win.title("A Protector's Promise")
+win.bgcolor("lightblue")
 
-tiny = turtle.Turtle()  # Define tiny as a Turtle object
+# Create turtle
+tiny = turtle.Turtle()
+tiny.shape("turtle")
+tiny.color("darkgreen")
+tiny.speed(1)
+tiny.hideturtle()
 
-def print_text(text):
-    global tiny
+# Function to print multi-line wrapped text
+def print_text(text, width=60):
     tiny.clear()
+    wrapped_text = textwrap.wrap(text, width)
+    y = 200
     tiny.penup()
-    tiny.goto(-200, 200)
+    for line in wrapped_text:
+        tiny.goto(-280, y)
+        tiny.write(line, font=("Arial", 14, "bold"))
+        y -= 25  # Adjust line spacing
     tiny.pendown()
-    tiny.write(text, font=("Arial", 16, "normal"))
 
-tiny.shape("turtle")  # Set the shape of the turtle
-tiny.speed(1)  # Set the speed of the turtle
-
-print_text("Seated in a five headed divine serpent, Shesh Ji, all the Lords bowed before Lord Vishnu, the ultimate protector. Sitting beside him was his beloved consort and Goddess of Wealth, Devi Lakshmi")
+# Story animation
+print_text("Seated in a five-headed divine serpent, Shesh Ji, all the Lords bowed before Lord Vishnu, the ultimate protector. Sitting beside him was his beloved consort and Goddess of Wealth, Devi Lakshmi.")
 time.sleep(3)
 tiny.forward(100)
 
@@ -41,13 +51,13 @@ time.sleep(2)
 tiny.right(90)
 tiny.forward(100)
 
-print_text("Hearing their concerns, Lord promised them that he will take an incarnation and fulfill the responsibility of protecting the Earth..")
+print_text("Hearing their concerns, Lord promised them that he will take an incarnation and fulfill the responsibility of protecting the Earth.")
 time.sleep(2)
+
+# Final message
 tiny.penup()
-tiny.goto(-200, -200)
+tiny.goto(-250, -200)
 tiny.pendown()
-print_text("The end.")
+print_text("The end.\nMay the Lord always protect us. 🌟")
 
 turtle.done()
-
-
