@@ -27,7 +27,7 @@ time (for delays in storytelling)
 
 Clone this repository:
 
-git clone https://github.com/your-username/protectors-promise.git
+git clone https://github.com/Vishnu1234-tech/protectors-promise.git
 cd protectors-promise
 
 ---
