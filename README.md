@@ -21,7 +21,7 @@ Turtle Graphics (built-in Python library)
 
 time (for delays in storytelling)
 
-textwrap (for neat multi-line text display)
+
 ---
 **▶️ How to Run**
 
