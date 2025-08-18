@@ -35,7 +35,7 @@ cd protectors-promise
 
 python protectors_promise.py
 
-
+---
 **🚀 Future Enhancements**
 
 Add background music / mantra chanting.
@@ -43,7 +43,6 @@ Add background music / mantra chanting.
 Create character illustrations instead of simple turtle.
 
 Add chapter-wise stories from Puranas or Gita.
-
 
 ---
 **🙏 Inspiration**
