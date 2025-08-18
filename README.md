@@ -44,7 +44,7 @@ Create character illustrations instead of simple turtle.
 
 Add chapter-wise stories from Puranas or Gita.
 
-Export animation as video (MP4) for sharing.
+
 ---
 **🙏 Inspiration**
 
