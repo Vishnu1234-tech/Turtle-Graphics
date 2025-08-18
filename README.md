@@ -48,6 +48,6 @@ Add chapter-wise stories from Puranas or Gita.
 ---
 **🙏 Inspiration**
 
-**This project is inspired by ancient Indian texts & spirituality, merging programming with divine storytelling.**
+This project is inspired by ancient Indian texts & spirituality, merging programming with divine storytelling.
 
 “May the Lord always protect us.” 🌟
