@@ -48,6 +48,6 @@ Export animation as video (MP4) for sharing.
 ---
 **🙏 Inspiration**
 
-This project is inspired by Indian mythology & spirituality, merging programming with divine storytelling.
+**This project is inspired by ancient Indian texts & spirituality, merging programming with divine storytelling.**
 
 “May the Lord always protect us.” 🌟
